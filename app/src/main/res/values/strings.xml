@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GoldenRing</string>
+    <string name="btn_smallRing">МАЛОЕ ЗОЛОТОЕ КОЛЬЦО</string>
+    <string name="btn_bigRing">БОЛЬШОЕ ЗОЛОТОЕ КОЛЬЦО</string>
+    <string name="btn_info">ИНФОРМАЦИЯ</string>
+</resources>

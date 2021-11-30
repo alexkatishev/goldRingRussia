@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map_ring"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_smallRing"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#607D8B"
+        android:layout_marginBottom="200dp"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_gravity="center"
+        android:text="@string/btn_smallRing" />
+
+
+    <Button
+        android:id="@+id/btn_bigRing"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#607D8B"
+        android:textStyle="italic"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+
+        android:text="@string/btn_bigRing" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#607D8B"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:textStyle="italic"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="100dp"
+        android:text="@string/btn_info" />
+
+</FrameLayout>
