@@ -10,38 +10,40 @@
         android:id="@+id/btn_smallRing"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:background="#607D8B"
+        android:layout_gravity="center"
         android:layout_marginBottom="200dp"
+        android:background="#607D8B"
+        android:text="@string/btn_smallRing"
+
         android:textColor="#ffffff"
         android:textStyle="italic"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_gravity="center"
-        android:text="@string/btn_smallRing" />
+        tools:ignore="TextContrastCheck" />
 
 
     <Button
         android:id="@+id/btn_bigRing"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:background="#607D8B"
-        android:textStyle="italic"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:textColor="#ffffff"
         android:layout_gravity="center"
+        android:background="#607D8B"
+        android:text="@string/btn_bigRing"
+        android:textColor="#ffffff"
 
-        android:text="@string/btn_bigRing" />
+        android:textStyle="italic"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:background="#607D8B"
         android:layout_gravity="center"
         android:layout_marginTop="300dp"
-        android:textStyle="italic"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:textColor="#ffffff"
         android:layout_marginBottom="100dp"
-        android:text="@string/btn_info" />
+        android:background="#607D8B"
+
+        android:text="@string/btn_info"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        tools:ignore="TextContrastCheck" />
 
 </FrameLayout>
