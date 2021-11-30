@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_smallRing">МАЛОЕ ЗОЛОТОЕ КОЛЬЦО</string>
+    <string name="btn_bigRing">БОЛЬШОЕ ЗОЛОТОЕ КОЛЬЦО</string>
+    <string name="btn_info">ИНФОРМАЦИЯ</string>
+</resources>
