@@ -5,6 +5,33 @@
     android:layout_height="match_parent"
     android:background="@drawable/map_ring"
     tools:context=".MainActivity">
+<RadioGroup
+    android:id="@+id/rg_icon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end">
+
+    <RadioButton
+        android:id="@+id/rb_eng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="16dp"
+        android:checked="false"
+        android:minHeight="48dp"
+        android:text="@string/rb_eng" />
+
+    <RadioButton
+        android:id="@+id/rb_rus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="16dp"
+        android:checked="true"
+        android:minHeight="48dp"
+        android:text="@string/rb_rus" />
+</RadioGroup>
 
     <Button
         android:id="@+id/btn_smallRing"
@@ -15,7 +42,7 @@
         android:background="#607D8B"
         android:text="@string/btn_smallRing"
 
-        android:textColor="#ffffff"
+        android:textColor="@color/white"
         android:textStyle="italic"
         tools:ignore="TextContrastCheck" />
 
@@ -27,7 +54,7 @@
         android:layout_gravity="center"
         android:background="#607D8B"
         android:text="@string/btn_bigRing"
-        android:textColor="#ffffff"
+        android:textColor="@color/white"
 
         android:textStyle="italic"
         tools:ignore="TextContrastCheck" />
@@ -42,7 +69,7 @@
         android:background="#607D8B"
 
         android:text="@string/btn_info"
-        android:textColor="#ffffff"
+        android:textColor="@color/white"
         android:textStyle="italic"
         tools:ignore="TextContrastCheck" />
 

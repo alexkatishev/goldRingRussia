@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Gold Ring Of Russa</string>
+    <string name="btn_smallRing" translatable="false">Small Gold Ring</string>
+    <string name="btn_bigRing" translatable="false">Big Gold Ring</string>
+    <string name="btn_info" translatable="false">Informatin</string>
+    <string name="tv_bigGoldRing" translatable="false">Along with the classic \"eight-point\"
+        golden route, there are also more extended ones — their composition depends only on the
+        imagination of tour operators. By the way, many additional cities are no worse than the
+        main ones, that is, they are just as wonderful in terms of landscapes, culture and
+        traditions.  I have already listed an approximate list of additional cities,
+        so I don\'t see the point in duplicating it here. Personally, I would advise
+        you to at least visit.</string>
+    <string name="tv_bogolubovo" translatable="false">Bogolyubovo - here the Holy Bogolyubsky
+        Convent and the very picturesque Church of the Intercession on the Nerl
+        are worthy of attention. Golden Ring - Bogolyubovo</string>
+    <string name="tv_info" translatable="false">The most convenient way to see the Golden Ring,
+        especially if you do not live in Moscow, is, of course, an organized tour in which you
+        will be brought—taken away, fed, settled and told. Its only drawback is the \"gallop
+        across Europe\". Such tours last on average from 2 to 5 days, but there are also 7 and
+        10 day routes.  Quite often, the starting point for traveling along the Golden Ring is
+        the city of Sergiev Posad, located about 54 km north of Moscow (from the MKAD) and is
+        its closest point to the Mother See. The most remote point in this group of routes is
+        Kostroma, located 340 km from the capital.  There are many tour operators on the tourist
+        market offering similar tours, but the prices are all about the same, the minimum cost of
+        such a trip starts from 3,990 rubles for 2 days with breakfast, and reaches about 22,490
+        rubles for a 7-day trip with three meals a day.  Of course, it\'s up to you to decide
+        whether it\'s a lot or a little, but if you live in Moscow or the region and have a car
+        plus a good guidebook, then it\'s probably easier to go along these routes yourself,
+        having previously compiled a detailed itinerary of the trip so as not to miss anything
+        and understand about the cost of visiting and opening hours of the most important
+        attractions.  You can\'t get on a train along the Golden Ring, because the railway
+        connects mainly only regional centers, such as Yaroslavl or Vladimir, and in many small
+        points the stations are often located at a considerable distance from tourist places,
+        which is quite inconvenient.  Special thanks to the creator of this guidebook Author:
+        Andrey Petrenko  https://tourweek.ru/articles/world/277593</string>
+    <string name="tv_goldRingOfRussia" translatable="false">The Golden Ring, known among foreigners
+        as the Golden Ring of Russia— is a group of popular tourist routes passing through ancient
+        Russian cities located on the territories of 6 Central European regions: Moscow, Vladimir,
+        Ivanovo, Kostroma, as well as Tver and Yaroslavl.  The so-called classic Golden Ring is a
+        route of eight points - Vladimir, Ivanovo, Kostroma, Pereslavl-Zalessky, Rostov, Sergiev
+        Posad, Suzdal and Yaroslavl. That is, these are the main cities of the Golden Ring of
+        Russia. In addition, often when tour operators make sightseeing trips along the Golden
+        Ring, other equally interesting places are included in the routes: Alexandrov, Bogolyubovo,
+        Gorokhovets, Gus-Khrustalny, Dmitrov, Kalyazin, Kideksha, Martynovo, Murom, Myshkin, Palekh,
+        Ples, Rybinsk, Tutaev, Uglich, as well as Yuryev-Polsky, Shuya and others. That is,
+        these are additional cities of the Golden Ring of Russia.  In April 2016, the city of
+        Kaluga was officially included among the cities of the Golden Ring of Russia.  The main
+        thing that unites the first and second lists is that all these cities have unique
+        architectural, historical or cultural attractions that reveal the diversity and richness
+        of Russian folk traditions.</string>
+    <string name="tv_ivanovo" translatable="false">Tourists usually come to the bride city of
+        Ivanovo with a small sightseeing tour, during which they inspect the historical center,
+        where former merchant houses of the 19th and 20th centuries have been preserved, as well
+        as monuments of constructivism (the 30s of the last century of the XX century), including
+        the Ship House. It is also possible to note the oldest civil brick building of the city -
+        the Shchudrov tent (17th century) and the Holy Vvedensky Convent.</string>
+    <string name="tv_kalyzin" translatable="false">Kalyazin - the hallmark of this town is the
+        Trinity-Makaryev monastery complex, flooded during the creation of the Uglich reservoir,
+        with a 60-meter bell tower \"floating\" on a small island.</string>
+    <string name="tv_kideksha" translatable="false">Kideksha is located near Suzdal, and is famous,
+        first of all, for its white stone church of Boris and Gleb, included in the UNESCO
+        heritage list. This church was built in the 12th century and is considered the first white
+        stone building in the whole of northeastern Russia.</string>
+    <string name="tv_costroma" translatable="false">Kostroma is interesting, first of all, for
+        its historical center with a historical layout structure approved by Catherine II, which
+        is based on a radial grid of streets. The main city square is Susaninskaya, with beautiful
+        historical buildings, such as a Fire tower, a former guardhouse building, and Shopping
+        malls occupying a fairly large territory. And, of course, the highlight of the Kostroma
+        program is the Ipatievsky Monastery.</string>
+    <string name="tv_miskino" translatable="false">In Myshkin, you can see with your own eyes the
+        exhibits of the only Mouse Museum in the world, as well as visit the Russian Valenki
+        Museum and a rather interesting historical and ethnographic open-air museum with
+        traditional folk buildings. Also, tourists usually visit the Assumption Cathedral and
+        stroll along the boulevard, where a beautiful wooden building has been preserved.</string>
+    <string name="tv_pereslavl" translatable="false">In Pereslavl-Zalessky you can see the Red
+        Square, several interesting monastery complexes and churches, including the Transfiguration
+        Cathedral, as well as the Peter the Great Boat Estate Museum, the Steam Locomotive
+        Museum and the Iron Museum. By the way, it is believed that it was in this cathedral
+        that many Pereslavl princes were baptized, among whom was Alexander Nevsky.</string>
+    <string name="tv_ples" translatable="false">Russian Russian province, the beautiful town
+        of Ples, comfortably located on the high bank of the Volga, was founded in 1410 and was
+        praised by the brush of Levitan himself as a mirror of the Russian province and the key
+        to understanding such a mysterious Russian soul.</string>
+    <string name="tv_rostov" translatable="false">In Rostov the Great, travelers usually visit
+        the Rostov Kremlin Museum-Reserve, as well as beautiful monasteries, including the
+        Spaso-Yakovlevsky and Avraamiev Bogoyavlensky. The wooden and stone buildings of the city
+        (XVIII-XX centuries) are also of great historical value.</string>
+    <string name="tv_sergeev_passad" translatable="false">Sergiev Posad is known for its
+        Trinity-Sergius Lavra, which is considered the largest Orthodox monastery in our country.
+        It is under UNESCO protection. Its numerous architectural structures were built by the best
+        architects of the XV-XIX centuries. There are more than 50 buildings of various purposes
+        in the ensemble of the monastery. By the way, this is where one of the episodes of \"Ivan
+        Vasilyevich changing his profession\" takes place. In addition, there is a wonderful Toy
+        Museum in the city, founded back in 1918.</string>
+    <string name="tv_suzdal" translatable="false">Suzdal is, first of all, the famous Suzdal
+        Kremlin, which is the oldest part of the city (the beginning of the 11th century).
+        The Kremlin has preserved to this day the earthen ramparts and moats of the ancient
+        fortress, as well as three churches, a complex of bishops\' chambers and the Nativity
+        Cathedral. In addition, there are five wonderful monastery complexes in Suzdal:
+        Spaso-Evfimiev, Pokrovsky, Alexandrovsky, Rizopolozhensky and Vasilievsky. There are
+        also many old churches, old Shopping malls and a wonderful Museum of
+        Wooden Architecture.</string>
+    <string name="tv_tuev" translatable="false">\"Pearl on the Volga\" – the city of Tutaev
+        is named. Its churches are picturesquely scattered along the hilly banks of the Mother
+        Volga, and it is the local landscape that attracts the attention of tourists
+        coming here.</string>
+    <string name="tv_uglich" translatable="false">Uglich is famous for its historical center,
+        where its main attractions are located - the Uglich Kremlin, the ancient Church of Dmitry
+        on Blood (1692) and the Transfiguration Cathedral. In addition, there are three monasteries
+        in the city – Resurrection, Epiphany and Alekseevsky. Also of interest are the civil
+        buildings (merchant estates) and the ensemble of the Shopping Area with
+        Shopping malls.</string>
+    <string name="tv_vladimir" translatable="false">Vladimir, whose main attractions are the Golden
+        Gate fortress, the white-stone Assumption and Dmitrievsky cathedrals and several beautiful
+        churches of the XVII-XVIII centuries. The Water Tower also deserves attention. By the way,
+        it is in Vladimir that the high–security prison, Vladimir Central, sung by Mikhail Krug,
+        is located.</string>
+    <string name="tv_yaroslavl" translatable="false">In Yaroslavl, considered the oldest city on
+        the Volga (1010), tourists can see an outstanding example of Catherine II\'s urban planning
+        policy – the historical center of the city, as well as the Transfiguration Monastery and
+        the beautiful Church of Elijah the Prophet.</string>
+    <string name="rb_eng">ENG</string>
+    <string name="rb_ru">RU</string>
+    <string name="rb_rus">rb_rus</string>
+</resources>

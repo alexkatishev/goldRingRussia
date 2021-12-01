@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GoldenRing</string>
+    <string name="app_name">Золотое Кольцо России</string>
     <string name="btn_smallRing">МАЛОЕ ЗОЛОТОЕ КОЛЬЦО</string>
     <string name="btn_bigRing">БОЛЬШОЕ ЗОЛОТОЕ КОЛЬЦО</string>
     <string name="btn_info">ИНФОРМАЦИЯ</string>
@@ -114,6 +114,9 @@
         и несколько красивых церквей XVII-XVIII вв. Заслуживает внимания и Водонапорная башня.
         Кстати, именно во Владимире находится воспетая Михаилом Кругом тюрьма строгого режима
         – Владимирский централ.</string>
+    <string name="rb_eng">ENG</string>
+
+    <string name="rb_rus">RUS</string>
 
 
 </resources>
