@@ -14,7 +14,7 @@
     <string name="tv_bogolubovo" translatable="false">Bogolyubovo - here the Holy Bogolyubsky
         Convent and the very picturesque Church of the Intercession on the Nerl
         are worthy of attention. Golden Ring - Bogolyubovo</string>
-    <string name="tv_info" translatable="false">The most convenient way to see the Golden Ring,
+    <string name="tv_goldRingOfRussia" translatable="false">The most convenient way to see the Golden Ring,
         especially if you do not live in Moscow, is, of course, an organized tour in which you
         will be brought—taken away, fed, settled and told. Its only drawback is the \"gallop
         across Europe\". Such tours last on average from 2 to 5 days, but there are also 7 and
@@ -33,8 +33,8 @@
         connects mainly only regional centers, such as Yaroslavl or Vladimir, and in many small
         points the stations are often located at a considerable distance from tourist places,
         which is quite inconvenient.  Special thanks to the creator of this guidebook Author:
-        Andrey Petrenko  https://tourweek.ru/articles/world/277593</string>
-    <string name="tv_goldRingOfRussia" translatable="false">The Golden Ring, known among foreigners
+        Andrey Petrenko  https://tourweek.ru/articles/world/277593
+        The Golden Ring, known among foreigners
         as the Golden Ring of Russia— is a group of popular tourist routes passing through ancient
         Russian cities located on the territories of 6 Central European regions: Moscow, Vladimir,
         Ivanovo, Kostroma, as well as Tver and Yaroslavl.  The so-called classic Golden Ring is a
@@ -121,6 +121,7 @@
         policy – the historical center of the city, as well as the Transfiguration Monastery and
         the beautiful Church of Elijah the Prophet.</string>
     <string name="rb_eng">ENG</string>
-    <string name="rb_ru">RU</string>
-    <string name="rb_rus">rb_rus</string>
+        <string name="rb_rus">rb_rus</string>
+    <string name="toast_info">onCreate_ok</string>
+    <string name="todo">TODO</string>
 </resources>
