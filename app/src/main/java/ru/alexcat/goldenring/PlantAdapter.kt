@@ -8,15 +8,15 @@ import ru.alexcat.goldenring.databinding.PlantItemBinding
 
 class PlantAdapter: RecyclerView.Adapter<PlantAdapter.PlantHolder>() {
 
-    val plantList = ArrayList<Plant>()
+    private val plantList = ArrayList<Plant>()
 
     class PlantHolder(item:View): RecyclerView.ViewHolder(item) {
-       val binding = PlantItemBinding.bind(item)
+       private val binding = PlantItemBinding.bind(item)
         fun bind(plant: Plant) = with(binding){
 
          ivOneItem.setImageResource(plant.imageId)
             tvTitleOnItem.text = plant.title
-            tvInfoOneItem.(plant.info_for_image)
+            tvInfoOneItem.setText(plant.info_for_image)
 
         }
 
@@ -43,3 +43,5 @@ class PlantAdapter: RecyclerView.Adapter<PlantAdapter.PlantHolder>() {
         notifyDataSetChanged()
     }
 }
+
+
