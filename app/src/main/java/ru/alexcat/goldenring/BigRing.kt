@@ -1,7 +1,6 @@
 package ru.alexcat.goldenring
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.widget.LinearLayout
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import ru.alexcat.goldenring.databinding.ActivityBigRingBinding
@@ -35,7 +34,7 @@ class BigRing : AppCompatActivity() {
             rcvBigRing.adapter = adapter
             btnNextTown.setOnClickListener{
                 if (index > 6) index =0
-                val plant =Plant(imageIdList[index], titleTextList[index],infoTextIdList[index])
+                val plant =RingPlant(imageIdList[index], titleTextList[index],infoTextIdList[index])
                 adapter.addPlant(plant)
                 index++
             }
@@ -45,4 +44,28 @@ class BigRing : AppCompatActivity() {
 
     }
 
+
+    override fun onStart() {
+        super.onStart()
+        Toast.makeText(this, "onStart BigRing" + getString(R.string.toast_info), Toast.LENGTH_SHORT).show()
+
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Toast.makeText(this, "onStop BigRing" + getString(R.string.toast_info), Toast.LENGTH_SHORT).show()
+
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Toast.makeText(this, "onResume BigRing" + getString(R.string.toast_info), Toast.LENGTH_SHORT).show()
+
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Toast.makeText(this, "onPause BigRing" + getString(R.string.toast_info), Toast.LENGTH_SHORT).show()
+
+    }
 }

@@ -1,5 +1,6 @@
 package ru.alexcat.goldenring
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,20 +9,17 @@ import ru.alexcat.goldenring.databinding.PlantItemBinding
 
 class PlantAdapter: RecyclerView.Adapter<PlantAdapter.PlantHolder>() {
 
-    private val plantList = ArrayList<Plant>()
+    private val plantList = ArrayList<RingPlant>()
 
     class PlantHolder(item:View): RecyclerView.ViewHolder(item) {
        private val binding = PlantItemBinding.bind(item)
-        fun bind(plant: Plant) = with(binding){
+        fun bind(ringPlant: RingPlant) = with(binding){
 
-         ivOneItem.setImageResource(plant.imageId)
-            tvTitleOnItem.text = plant.title
-            tvInfoOneItem.setText(plant.info_for_image)
+         ivOneItem.setImageResource(ringPlant.imageId)
+            tvTitleOnItem.text = ringPlant.title
+            tvInfoOneItem.setText(ringPlant.info_for_image)
 
         }
-
-
-
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PlantHolder {
@@ -38,8 +36,9 @@ class PlantAdapter: RecyclerView.Adapter<PlantAdapter.PlantHolder>() {
        return plantList.size
     }
 
-    fun addPlant(plant: Plant){
-        plantList.add(plant)
+    @SuppressLint("NotifyDataSetChanged")
+    fun addPlant(ringPlant: RingPlant){
+        plantList.add(ringPlant)
         notifyDataSetChanged()
     }
 }

@@ -3,7 +3,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.RadioGroup
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
@@ -26,20 +25,20 @@ class MainActivity : AppCompatActivity() {
         super.onResume()
 
 
-        val btn_smallRing = findViewById<View>(R.id.btn_smallRing)
-        val btn_bigRing = findViewById<View>(R.id.btn_bigRing)
-        val btn_info = findViewById<View>(R.id.btn_info)
+        val btnSmallRing = findViewById<View>(R.id.btn_smallRing)
+        val btnBigRing = findViewById<View>(R.id.btn_bigRing)
+        val btnInfo = findViewById<View>(R.id.btn_info)
 
 
-        btn_smallRing.setOnClickListener {
+        btnSmallRing.setOnClickListener {
             val intent = Intent(this, SmallRing::class.java)
             startActivity(intent)
         }
-        btn_bigRing.setOnClickListener {
+        btnBigRing.setOnClickListener {
             val intent = Intent(this, BigRing::class.java)
             startActivity(intent)
         }
-        btn_info.setOnClickListener {
+        btnInfo.setOnClickListener {
             val intent = Intent(this, Information::class.java)
             startActivity(intent)
         }

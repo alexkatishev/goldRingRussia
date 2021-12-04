@@ -120,6 +120,7 @@
     <string name="rb_rus">RUS</string>
     <string name="toast_info">onCreate_OK</string>
     <string name="todo">TODO</string>
+    <string name="next_frame">дальше</string>
 
 
 </resources>
