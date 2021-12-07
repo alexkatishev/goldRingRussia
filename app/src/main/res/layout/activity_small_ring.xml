@@ -12,7 +12,9 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rcv_small_ring"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_next_town" />
 
     <Button
         android:id="@+id/btn_next_town"

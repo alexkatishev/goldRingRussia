@@ -11,18 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Log.i("MainActivity", "onCreate called")
-        Toast.makeText(this, "" + getString(R.string.toast_info), Toast.LENGTH_SHORT).show()
-
-      //  val radioGroup = findViewById<View>(R.id.rg_icon) as RadioGroup
-       // val rb_eng = findViewById<View>(R.id.rb_eng)
-       // val rb_rus = findViewById<View>(R.id.rb_eng)
-
-
-    }
-
-
-    override fun onResume() {
-        super.onResume()
+        Toast.makeText(this, "onCreate called" +
+                getString(R.string.toast_info), Toast.LENGTH_SHORT).show()
 
 
         val btnSmallRing = findViewById<View>(R.id.btn_smallRing)
@@ -42,6 +32,15 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Information::class.java)
             startActivity(intent)
         }
+
+    }
+
+
+    override fun onResume() {
+        super.onResume()
+
+        Toast.makeText(this, "onResume" + getString(R.string.toast_info), Toast.LENGTH_SHORT).show()
+
 
 
     }

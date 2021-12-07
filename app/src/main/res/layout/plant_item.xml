@@ -32,17 +32,30 @@
             android:padding="5dp"
             android:textColor="@color/black"
             android:textSize="20sp" />
-            <TextView
-                android:id="@+id/tv_info_one_item"
-                style="@style/TextAppearance.AppCompat.Title"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:fontFamily="monospace"
-                android:gravity="center|top"
-                android:padding="5dp"
-                android:textColor="@color/black"
-                android:textSize="12sp" />
 
+
+
+
+        <TextView
+            android:id="@+id/tv_info_one_item"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:gravity="center|top"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/tv_to_share"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:gravity="center|top"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
 
 
 

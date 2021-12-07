@@ -118,9 +118,9 @@
     <string name="rb_eng">ENG</string>
 
     <string name="rb_rus">RUS</string>
-    <string name="toast_info">onCreate_OK</string>
+    <string name="toast_info">_OK</string>
     <string name="todo">TODO</string>
-    <string name="next_frame">дальше</string>
+    <string name="next_frame" translatable="false">дальше</string>
 
 
 </resources>

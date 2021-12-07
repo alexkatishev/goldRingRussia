@@ -114,10 +114,10 @@
         и несколько красивых церквей XVII-XVIII вв. Заслуживает внимания и Водонапорная башня.
         Кстати, именно во Владимире находится воспетая Михаилом Кругом тюрьма строгого режима
         – Владимирский централ.</string>
-    <string name="rb_eng">ENG</string>
-    <string name="rb_rus">RU</string>
-    <string name="toast_info">toast_info</string>
-    <string name="todo">TODO</string>
+    <string name="rb_eng" translatable="false">ENG</string>
+    <string name="rb_rus" translatable="false">RU</string>
+    <string name="toast_info" translatable="false">toast_info</string>
+    <string name="todo" translatable="false">TODO</string>
 
 
 </resources>

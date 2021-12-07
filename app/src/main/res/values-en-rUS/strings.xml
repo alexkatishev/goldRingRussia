@@ -124,4 +124,5 @@
         <string name="rb_rus">rb_rus</string>
     <string name="toast_info">onCreate_ok</string>
     <string name="todo">TODO</string>
+    <string name="next_frame" translatable="false">Next</string>
 </resources>
