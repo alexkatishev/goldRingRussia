@@ -121,6 +121,7 @@
     <string name="toast_info">_OK</string>
     <string name="todo">TODO</string>
     <string name="next_frame" translatable="false">дальше</string>
+    <string name="uri">ссылка на автора материала</string>
 
 
 </resources>

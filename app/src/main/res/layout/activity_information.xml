@@ -1,39 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/list_item_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <ImageView
         android:id="@+id/iv_item"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_margin="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/map_ring"
         android:clickable="true"
+        android:contentDescription="@string/todo"
         android:focusable="true"
+        android:scaleType="centerCrop"
         android:scaleX="1.0"
         android:scaleY="1.0"
-        android:scaleType="centerCrop"
-        android:contentDescription="@string/todo"
-        android:background="@drawable/map_ring"/>
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    <TextView
-        android:id="@+id/tv_info_item"
-        style="@style/TextAppearance.AppCompat.Title"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fontFamily="monospace"
-        android:gravity="center|top"
-        android:padding="5dp"
-        android:text="@string/tv_goldRingOfRussia"
-        android:textColor="@color/black"
-        android:textSize="16sp" />
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_item">
+
+        <TextView
+            android:id="@+id/tv_info_item"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="monospace"
+            android:gravity="center|top"
+            android:padding="5dp"
+            android:text="@string/tv_goldRingOfRussia"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
 
     </ScrollView>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
-</LinearLayout>
+        <Button
+            android:id="@+id/btn_uri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:background="#607D8B"
+            android:text="@string/uri"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+            tools:layout_editor_absoluteX="120dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
